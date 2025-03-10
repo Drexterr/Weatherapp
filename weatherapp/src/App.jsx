@@ -55,7 +55,10 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-400 to-purple-600 flex items-center justify-center p-4">
+    <div className='bg-gradient-to-br from-sky-400 to-purple-600'>
+      <h1 className='flex justify-center text-6xl pt-10 font-bold text-white'>Weather App</h1>
+    <div className="min-h-screen  flex items-center justify-center p-4">
+      
       <motion.div
         initial={{ opacity: 0, scale: 2 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -119,6 +122,7 @@ const App = () => {
           </motion.div>
         )}
       </motion.div>
+    </div>
     </div>
   );
 };
